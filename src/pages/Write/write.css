@@ -1,0 +1,119 @@
+.write{ 
+    padding:40px 0px;
+}
+
+.addImg{
+    margin:10px;
+   margin-left: 100px; 
+   width:70vw;
+   height: 400px;
+   object-fit: cover;
+}
+
+.writeForm{
+ padding: 10px;
+ 
+}
+
+
+.writeFormGroup{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.writeIcon{
+    width: 25;
+    height: 25;
+    color: rgb(104, 104, 104);
+    cursor: pointer;
+}
+
+.writeInput{
+    font-size: 24px;
+    border: none;
+    border-bottom: 2px solid grey;
+    padding: 10px;
+    margin:20px 0px;
+    width:50vw;
+}
+
+.writeInput:focus{
+    outline: none;
+
+}
+
+.allCatDiv{
+    width:100%;
+    display: flex;
+    align-items: center;
+
+}
+.catDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selectCatNo{
+    padding:5px;
+    margin:5px;
+}
+.selectCat{
+    padding:5px;
+    margin: 5px;
+}
+
+
+.writeText{
+  height: 40vh;
+  width:56vw;
+  border: 1px solid;
+  margin-top: 20px;
+  font-size: 20px;
+  
+}
+
+
+.publishBtn{
+     margin-left: 100px;
+     color: white;
+     background-color: teal;
+     border-radius: 5px;
+     border: none;
+     padding:10px;
+}
+
+.publishBtn:active{
+
+     color: white;
+     background-color: rgb(20, 107, 107);
+     padding: 9px;
+}
+
+
+@media screen and (max-width: 480px){
+    .write{ 
+    padding:20px 0px;
+}
+.addImg{
+    margin:10px;
+   /* margin-left:30px;  */
+   width:90vw;
+   object-fit:contain;
+}
+
+.writeFormGroup{
+    margin:10px;
+    margin-left:20px;
+    display: flex;
+    flex-direction: column;
+}
+.writeText{
+  height: 30vh;
+  width:80vw;
+  border: 1px solid;
+  margin-top: 20px;
+  font-size: 20px;
+  
+}
+}

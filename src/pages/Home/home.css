@@ -1,0 +1,46 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+.homeWrapper{
+    flex:9;
+}
+.search{
+    font-size: 30px;
+    margin:10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+Link{
+        text-decoration: none;
+      }
+
+
+.clearBtn{
+    color:red;
+    background-color: inherit;
+    margin-left:20px;
+    cursor:pointer;
+}   
+
+
+/* ................MOBILE DESIGN............. */
+
+@media screen and (max-width: 480px){
+    .homeWrapper{
+    width: 100vw;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+}
+
+

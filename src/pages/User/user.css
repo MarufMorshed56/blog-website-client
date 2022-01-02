@@ -1,0 +1,131 @@
+.user{
+ display: flex;
+
+}
+.userWrapper{
+ flex:9;
+ padding:20px;
+  margin:0px 50px;
+}
+
+.userTitle{
+ display: flex;
+ align-items: center;
+ justify-content:space-between;
+}
+
+.userUpdateTitle:first-child{
+ font-size: 30px;
+ margin-bottom: 30px;
+ color:teal;
+}
+
+.userDeleteBtn{
+ font-size: 16px;
+ margin-bottom: 30px;
+ color:rgb(241, 33, 18);
+ cursor: pointer;
+ border: 1px solid;
+ padding:5px;
+ background-color: transparent;
+ border-radius: 5px;
+}
+
+.userDeleteBtn:active{
+ font-size: 16px;
+ margin-bottom: 30px;
+ color:rgb(255, 255, 255);
+ cursor: pointer;
+ border: 1px solid;
+ padding:5px;
+ background-color:red;
+}
+
+
+.userForm{
+display: flex;
+flex-direction: column;
+}
+
+.userProPicUpdateContainer{
+  display: flex;
+  padding: 0px 10px 10px 0px;
+}
+
+.userProPicContainer{
+ display: flex;
+ flex-direction: column;
+ margin-right: 40px;
+}
+
+.userProPic{
+ height:180px;
+ width:180px;
+ margin-top: 10px;
+}
+
+.inputfileLabel{
+
+}
+
+.userProPicChangeContainer{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.userPicUploadIcon{
+  font-size: 30px;
+  margin-left:20px ;
+  cursor: pointer;
+}
+
+
+.userForm > label{
+ font-size: 20px;
+ margin-top: 20px;
+}
+
+.userForm > input{
+ width: 50vw;
+ color:grey;
+ margin: 10px 0px;
+ padding:10px ;
+ border:none;
+ border-bottom: 1px solid teal;
+ max-width: 600px;
+}
+
+.userForm > input:focus{ 
+ outline:none;
+}
+
+.userBtn{
+ width:80px;
+ margin-top: 20px;
+ padding: 7px;
+ border-radius: 7px;
+ border: none;
+ background-color: rgb(0, 161, 161);
+ color: white;
+}
+
+.userBtn:active{
+ background-color: rgb(2, 110, 110);
+}
+
+@media screen and (max-width: 480px){
+
+  .user{
+    width: 100%;
+ display: flex;
+
+}
+  .userWrapper{
+ padding:10px;
+  margin:0px 25px;
+}
+
+.userPicUploadIcon{
+  margin-top:10px ;
+}
+}
